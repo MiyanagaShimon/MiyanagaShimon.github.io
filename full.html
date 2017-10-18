@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fullpage.js_test</title>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="./jquery.fullPage.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./jquery.fullPage.min.css">
+<link rel="stylesheet" type="text/css" href="full.css">
+</head>
+
+
+<body>
+<div id="contents">
+  <div class="section"><img src="./img/dish.png"><p>Lunch</p></div>
+  <div class="section"><img src="./img/fashion.png"><p>Fashion</p></div>
+  <div class="section"><img src="./img/hobby.png"><p>Hobby</p></div>
+  <div class="section">eeee</div>
+</div>
+</body>
+
+<script type="text/javascript">
+$(function(){
+  $('#contents').fullpage();
+});
+</script>
+</html>

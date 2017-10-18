@@ -1,0 +1,24 @@
+.section
+{
+  text-align: center;
+  background-color: #fff;
+}
+
+.section img
+{
+  height: 350px;
+  box-sizing: border-box;
+  padding:30px;
+  border: 10px solid #4b4b4b;
+  border-radius: 30px;
+}
+
+.section p
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ƒqƒ‰ƒMƒmŠpƒS ProN W3', Meiryo, ƒƒCƒŠƒI, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #4b4b4b;
+}
